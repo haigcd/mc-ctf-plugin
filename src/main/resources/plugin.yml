@@ -1,0 +1,5 @@
+name: MinecraftCaptureTheFlag
+version: 1.0
+author: Haig Didizian
+main: tech.clearistic.mccapturetheflag.CaptureTheFlag
+api-version: 1.18

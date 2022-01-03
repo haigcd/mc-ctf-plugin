@@ -1,0 +1,36 @@
+config:
+  ==: Config
+  teams:
+    - ==: Team
+      chest:
+        ==: org.bukkit.Location
+        world: world
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        pitch: 0.0
+        yaw: 0.0
+      spawn:
+        ==: org.bukkit.Location
+        world: world
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        pitch: 0.0
+        yaw: 0.0
+      color: 255
+      players:
+        - Player1
+        - Player2
+      name: Team1
+  prize: TBD
+  allowBeds: false
+  playerMode: CREATIVE
+  prizeChest:
+    ==: org.bukkit.Location
+    world: world
+    x: 0
+    y: 0
+    z: 0
+    pitch: 0.0
+    yaw: 0.0
